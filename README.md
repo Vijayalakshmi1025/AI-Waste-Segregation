@@ -1,4 +1,4 @@
-# 🗑️ AI-Based Waste Segregation
+#  AI-Based Waste Segregation
 
 This project uses a **Convolutional Neural Network (CNN)** to classify waste into 6 categories using the **TrashNet dataset**.
 
@@ -9,7 +9,7 @@ This project uses a **Convolutional Neural Network (CNN)** to classify waste int
 ##  Results
 - **Before Augmentation:** 55% validation accuracy  
 - **After Augmentation:** 64% validation accuracy  
-- Correctly predicted test images (e.g., *Metal ✅*)
+- Correctly predicted test images (e.g., *Metal*)
 
 ##  Files in this Repo
 - `AI_waste_segregation.ipynb` → Full training notebook  
@@ -20,7 +20,7 @@ This project uses a **Convolutional Neural Network (CNN)** to classify waste int
 
 You can also **retrain the model** by running the notebook.
 
-## 🔗 How to Load Model
+##  How to Load Model
 ```python
 from tensorflow.keras.models import load_model
 model = load_model("waste_model_improved.h5")
