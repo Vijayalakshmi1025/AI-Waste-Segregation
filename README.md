@@ -2,16 +2,16 @@
 
 This project uses a **Convolutional Neural Network (CNN)** to classify waste into 6 categories using the **TrashNet dataset**.
 
-## 📂 Dataset
+##  Dataset
 - **TrashNet Dataset (resized version)** with classes:
   - Cardboard, Glass, Metal, Paper, Plastic, Trash
 
-## 📊 Results
+##  Results
 - **Before Augmentation:** 55% validation accuracy  
 - **After Augmentation:** 64% validation accuracy  
 - Correctly predicted test images (e.g., *Metal ✅*)
 
-## 📎 Files in this Repo
+##  Files in this Repo
 - `AI_waste_segregation.ipynb` → Full training notebook  
 
 ⚠️ **The trained model is too large for GitHub. You can download it from Google Drive:**  
